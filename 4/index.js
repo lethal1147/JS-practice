@@ -12,8 +12,8 @@ function uniqueOddNumbers(numbers) {
   //console.log(result);
 
   let uniqueNum = result.filter((element, index) => {
-    console.log(element, index)
-    console.log(result.indexOf(element))
+    // console.log(element, index)
+    //console.log(result.indexOf(element))
     return result.indexOf(element) === index;
     
 });
@@ -49,9 +49,9 @@ return uniqueNum;
 // return result
 
 }
-uniqueOddNumbers([1, 2, 3, 4, 5, 5, 7, 7, 9, 10])
-//console.log(uniqueOddNumbers([2, 4, 6, 7]));
-//console.log(uniqueOddNumbers([1, 2, 3, 4, 5, 5, 7, 7, 9, 10]));
+//uniqueOddNumbers([1, 2, 3, 4, 5, 5, 7, 7, 9, 10])
+console.log(uniqueOddNumbers([2, 4, 6, 7]));
+console.log(uniqueOddNumbers([1, 2, 3, 4, 5, 5, 7, 7, 9, 10]));
 
 
 module.exports = uniqueOddNumbers;
