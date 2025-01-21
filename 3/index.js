@@ -12,6 +12,8 @@ function calculateTax(income) {
   return tax;
 }
 
-console.log(calculateTax(150000));
-console.log(calculateTax(220000));
-console.log(calculateTax(700000));
+console.log(calculateTax(150000));  
+console.log(calculateTax(220000)); 
+console.log(calculateTax(700000));  
+
+export { calculateTax as default };

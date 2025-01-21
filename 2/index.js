@@ -11,4 +11,5 @@ console.log(getGrade(77));
 console.log(getGrade(66));
 console.log(getGrade(55));
 console.log(getGrade(45));
-export default getGrade;
+
+export { getGrade as default };

@@ -17,6 +17,7 @@ function getMonthInfo(monthNumber) {
 
   return [monthNames[monthNumber - 1], monthDays[monthNumber - 1]];
 }
+
 console.log(getMonthInfo(3));
 console.log(getMonthInfo(1));
 console.log(getMonthInfo(2));
@@ -25,4 +26,4 @@ console.log(getMonthInfo(5));
 console.log(getMonthInfo(6));
 console.log(getMonthInfo(12));
 
-export default getMonthInfo;
+export { getMonthInfo as default };

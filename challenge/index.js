@@ -14,6 +14,8 @@ function uncensor(censored, vowels) {
   return result;
 }
 
-console.log(uncensor("Wh*r* d*d my v*w*ls g*?", "eeioeo"));
-console.log(uncensor("abcd", ""));
-console.log(uncensor("*PP*RC*S*", "UEAE"));
+console.log(uncensor("Wh*r* d*d my v*w*ls g*?", "eeioeo"));  
+console.log(uncensor("abcd", ""));  
+console.log(uncensor("*PP*RC*S*", "UEAE")); 
+
+export { uncensor as default };
