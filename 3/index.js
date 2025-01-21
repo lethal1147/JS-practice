@@ -1,5 +1,5 @@
 function calculateTax(income) {
-  if (income >= 500000) {
+  if (income > 500000) {
     return income * 0.15;
   } else if (income >= 300001) {
     return income * 0.10;
